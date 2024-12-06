@@ -1,3 +1,4 @@
+import Metricate from '@app/app/_components/Metricate'
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.css'
@@ -25,6 +26,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="coinzilla" content="7a1518b6f3004596205a8fd524d63b20" />
+        <meta
+          name="adbytes-site-verification"
+          content="1dc235b1a0a1a9c003aa433f802322bcf12148bd9ed631cfb564af7c175e91a4"
+        />
+        <Metricate />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}

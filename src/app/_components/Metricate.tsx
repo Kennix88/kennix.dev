@@ -19,13 +19,13 @@ export default function Metricate() {
               trackHash:true
          });`}
       </Script>
-      {/*<Script id="googleAnalytics">*/}
-      {/*  {`window.dataLayer = window.dataLayer || [];*/}
-      {/*          function gtag(){dataLayer.push(arguments);}*/}
-      {/*          gtag('js', new Date());*/}
+      <Script id="googleAnalytics">
+        {`window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
 
-      {/*          gtag('config', 'G-TSXZ0PJ4BP');`}*/}
-      {/*</Script>*/}
+                gtag('config', 'G-TSXZ0PJ4BP');`}
+      </Script>
       <Script id="yaContext">{`window.yaContextCb = window.yaContextCb || []`}</Script>
       <Script
         id="yaContextLoad"
