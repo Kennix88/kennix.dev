@@ -19,12 +19,16 @@ export default function Metricate() {
               trackHash:true
          });`}
       </Script>
-      <Script id="googleAnalytics">
+      <Script
+        id="googleAnalytics1"
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-Y8PRRLPNTH"></Script>
+      <Script id="googleAnalytics2">
         {`window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-                gtag('config', 'G-TSXZ0PJ4BP');`}
+            gtag('config', 'G-Y8PRRLPNTH');`}
       </Script>
       <Script id="yaContext">{`window.yaContextCb = window.yaContextCb || []`}</Script>
       <Script
