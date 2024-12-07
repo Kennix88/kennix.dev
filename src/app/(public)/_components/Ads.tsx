@@ -6,7 +6,7 @@ export default function Ads() {
       <h2 className="text-2xl font-bold text-center p-4">Ads</h2>
       <div
         id="ads"
-        className="flex justify-center items-start gap-2 min-h-[800px]">
+        className="flex flex-wrap justify-center items-start gap-2 min-h-[800px]">
         <div className="adbytes-display-ad" data-adspace-id="164039E0B5"></div>
         <div className="adbytes-display-ad" data-adspace-id="7B8973C309"></div>
         <div className="adbytes-display-ad" data-adspace-id="69CB7B0099"></div>
