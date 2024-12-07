@@ -20,7 +20,7 @@ export default function Hero() {
             I develop various software. Telegram bots, Telegram mini-apps, VPN
             services, scraping projects, web apps and other projects.
           </p>
-          <div className="flex justify-center gap-1">
+          <div className="flex flex-wrap justify-center gap-1">
             <a
               href="https://github.com/Kennix88"
               target="_blank"
