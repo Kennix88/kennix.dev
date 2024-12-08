@@ -15,8 +15,9 @@ const geistMono = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'KennixDev',
-  description: 'Porfilio',
+  title: 'KennixDev - Open-source Software Developer',
+  description:
+    'I develop various software. Telegram bots, Telegram mini-apps, VPN services, scraping projects, web apps and other projects.',
 }
 
 export default function RootLayout({
